@@ -1,5 +1,6 @@
 title = "digitale lernorte bilden"
 baseURL = "https://example.com"
+publishDir = "docs"
 languageCode = "de-de"
 theme = "ananke"
 
