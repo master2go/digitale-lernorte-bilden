@@ -1,5 +1,5 @@
 title = "digitale lernorte bilden"
-baseURL = "https://example.com"
+baseURL = "https://master2go.github.io/digitale-lernorte-bilden/"
 publishDir = "docs"
 languageCode = "de-de"
 theme = "ananke"
