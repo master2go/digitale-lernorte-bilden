@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ananke: a Hugo Theme on digitale lernorte bilden</title>
-    <link>https://example.com/</link>
+    <link>https://master2go.github.io/digitale-lernorte-bilden/</link>
     <description>Recent content in Ananke: a Hugo Theme on digitale lernorte bilden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Thu, 20 Dec 2018 20:21:25 +0100</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://master2go.github.io/digitale-lernorte-bilden/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>digitale lernorte bilden</title>
-      <link>https://example.com/post/digitale-lernorte-bilden/</link>
+      <link>https://master2go.github.io/digitale-lernorte-bilden/post/digitale-lernorte-bilden/</link>
       <pubDate>Thu, 20 Dec 2018 20:21:25 +0100</pubDate>
       
-      <guid>https://example.com/post/digitale-lernorte-bilden/</guid>
+      <guid>https://master2go.github.io/digitale-lernorte-bilden/post/digitale-lernorte-bilden/</guid>
       <description> Hello this is my all new site 😄 Hier geht es um ❤️
  digitales Lernen erstellen von lernorten digitales Lernen lernen  My Header This is my content
 if hello = True: print &amp;#34;World&amp;#34; </description>
@@ -24,10 +24,10 @@ if hello = True: print &amp;#34;World&amp;#34; </description>
     
     <item>
       <title>Contact</title>
-      <link>https://example.com/contact/</link>
+      <link>https://master2go.github.io/digitale-lernorte-bilden/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/contact/</guid>
+      <guid>https://master2go.github.io/digitale-lernorte-bilden/contact/</guid>
       <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.
 Your Name Email Address An email address is required.  Message   </description>
     </item>
