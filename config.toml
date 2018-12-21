@@ -1,5 +1,5 @@
 title = "digitale lernorte bilden"
-baseURL = "https://master2go.github.io/digitale-lernorte-bilden/"
+baseURL = "https://wonderful-lamport-a5401a.netlify.com"
 publishDir = "docs"
 languageCode = "de-de"
 theme = "ananke"
