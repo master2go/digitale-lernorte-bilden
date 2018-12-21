@@ -1,5 +1,5 @@
 title = "digitale lernorte bilden"
-baseURL = "https://wonderful-lamport-a5401a.netlify.com"
+baseURL = "https://digitale.lernortebilden.de"
 publishDir = "docs"
 languageCode = "de-de"
 theme = "ananke"
