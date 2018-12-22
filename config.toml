@@ -1,36 +1,40 @@
-title = "digitale lernorte bilden"
-baseURL = "https://digitale.lernortebilden.de"
+baseurl                 = "https://digitale.lernorte.bilden/"               # Your domain name. Mus:t end with "/"
+languageCode            = "en-us"
 publishDir = "docs"
-languageCode = "de-de"
-theme = "ananke"
-
-
-MetaDataFormat = "yaml"
-DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
-enableRobotsTXT = true
-enableEmoji = true
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+defaultContentLanguage  = "en"
+isMultilingual          = false
+title                   = "digitale lernorte bilden"
+theme                   = "sam"
+pygmentsStyle           = "monokai"                     # https://help.farbox.com/pygments.html
+pygmentsCodefences      = true
+# googleAnalytics         = ""             # Tracking code, eg. "UA-111111111-1"
 
 [params]
-  name = "iNge"
-  bio = "Ich erstelle digitale Lernorte und lehre digitales Lernen"
-  favicon = ""
-  description = "The last theme you'll ever need. Maybe."
-  facebook = ""
-  twitter = "https://twitter.com/ingerennt"
-  instagram = ""
-  youtube = ""
-  github = ""
-  gitlab = ""
-  linkedin = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2
+    dateform            = "Mon Jan 02, 2006"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+    favicon             = "sam.ico"
+    homepage            = "main"                        # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = false                          # Allow links to the full size images
+    smallPreviewImages   = true                         # Show small images from the subfolder instead of the big versions in the gallery
+                                                         # Note: This will only become active if clickablePhotos is also true.
+    smallImagesSubfolder = "small/"                      # The subfolder for the small versions of the images under the gallery (with trailing slash)
+                                                         # For each image the small version has to have the same filename as the big version.
+    footerText          = "Call me Sam, a theme for Hugo."
+
+# Metadata
+    description         = "A new Hugo site."            # Max 160 characters show in search results
+    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
+
+[[params.mainMenu]]
+    link = "/gallery"
+    text = "gallery"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "who is sam?"
