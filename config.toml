@@ -29,12 +29,12 @@ pygmentsCodefences      = true
 
 [[params.mainMenu]]
     link = "/posts"
-    text = "posts"
+    text = "digitale"
 
 [[params.mainMenu]]
     link = "/gallery"
-    text = "gallery"
+    text = "lernorte"
 
 [[params.mainMenu]]
     link = "/about"
-    text = "who is sam?"
+    text = "bilden?"
