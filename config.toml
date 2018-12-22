@@ -1,4 +1,4 @@
-baseurl                 = "https://digitale.lernorte.bilden/"               # Your domain name. Mus:t end with "/"
+baseurl                 = "https://digitale.lernortebilden.de/"               # Your domain name. Mus:t end with "/"
 languageCode            = "en-us"
 publishDir = "docs"
 defaultContentLanguage  = "en"
